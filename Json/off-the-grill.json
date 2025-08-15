@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "Mzansi Ribeye",
+        "description": "Prime ribeye seasoned with Cape Malay spices, flame-grilled to perfection.",
+        "price": 165,
+        "image": { "fields": { "file": { "url": "/imgs/Mzansi Ribeye.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "Boerie Stack",
+        "description": "Thick boerewors coils served with grilled onions and tomato relish.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Boerie Stack.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "Peri-Peri Chicken Quarters",
+        "description": "Spicy Mozambican-inspired chicken with a smoky kick.",
+        "price": 89,
+        "image": { "fields": { "file": { "url": "/imgs/Peri-Peri Chicken Quarters.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "Braaied Lamb Chops",
+        "description": "Karoo lamb chops brushed with rosemary-garlic butter.",
+        "price": 175,
+        "image": { "fields": { "file": { "url": "/imgs/Braaied Lamb Chops.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Grill Master’s Beef Burger",
+        "description": "200g patty, melted cheddar, caramelized onions, and tangy chutney.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Grill Master’s Beef Burger.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "Sticky Mop Ribs",
+        "description": "Pork ribs glazed with a smoky-bourbon basting sauce.",
+        "price": 180,
+        "image": { "fields": { "file": { "url": "/imgs/Sticky Mop Ribs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "Soweto Skewers",
+        "description": "Marinated beef cubes with bell peppers and onion on skewers.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Soweto Skewers.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "Chakalaka Chicken Wings",
+        "description": "Charred wings coated in sweet-spicy chakalaka glaze.",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "/imgs/Chakalaka Chicken Wings.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "Bunny BBQ Burger",
+        "description": "Durban bunny chow-inspired grilled chicken burger.",
+        "price": 105,
+        "image": { "fields": { "file": { "url": "/imgs/Bunny BBQ Burger.avif" } } }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "Surf ‘n’ Turf",
+        "description": "Grilled sirloin topped with garlic-butter prawns.",
+        "price": 195,
+        "image": { "fields": { "file": { "url": "/imgs/Surf ‘n’ Turf.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "Prego Steak Roll",
+        "description": "Portuguese-style grilled steak in a crusty roll.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Prego Steak Roll.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "Castle BBQ Brisket",
+        "description": "Beer-infused slow-grilled beef brisket slices.",
+        "price": 165,
+        "image": { "fields": { "file": { "url": "/imgs/Castle BBQ Brisket.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "Ndebele Veggie Grill Platter",
+        "description": "Grilled corn, mushrooms, halloumi, and peppers.",
+        "price": 99,
+        "image": { "fields": { "file": { "url": "/imgs/Ndebele Veggie Grill Platter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "Shisa Nyama Platter",
+        "description": "Mixed grilled meats for two with pap & chakalaka.",
+        "price": 280,
+        "image": { "fields": { "file": { "url": "/imgs/Shisa Nyama Platter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "Flava Fire Burger",
+        "description": "Spicy beef burger with jalapeños and chipotle mayo.",
+        "price": 115,
+        "image": { "fields": { "file": { "url": "/imgs/Flava Fire Burger.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "Zambezi BBQ Fish",
+        "description": "Whole fish grilled with lemon, herbs, and mild peri-peri.",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "/imgs/Zambezi BBQ Fish.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "Braaied Ostrich Steak",
+        "description": "Lean and tender ostrich fillet with peppercorn rub.",
+        "price": 170,
+        "image": { "fields": { "file": { "url": "/imgs/Braaied Ostrich Steak.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "Charred Corn Ribs",
+        "description": "Sweet corn riblets tossed in smoked paprika butter.",
+        "price": 65,
+        "image": { "fields": { "file": { "url": "/imgs/Charred Corn Ribs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "39" },
+      "fields": {
+        "title": "Biltong-Crusted Fillet",
+        "description": "Tender beef fillet coated with crushed biltong seasoning.",
+        "price": 185,
+        "image": { "fields": { "file": { "url": "/imgs/Biltong-Crusted Fillet.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "40" },
+      "fields": {
+        "title": "Peri-Peri Pork Belly",
+        "description": "Crispy-edged pork belly grilled with spicy marinade.",
+        "price": 160,
+        "image": { "fields": { "file": { "url": "/imgs/Peri-Peri Pork Belly.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "Grilled Veg Halloumi Stack",
+        "description": "Layers of grilled veg and salty halloumi, drizzled with herb oil.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Grilled Veg Halloumi Stack.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "42" },
+      "fields": {
+        "title": "Mango BBQ Chicken",
+        "description": "Tangy mango glaze with a hint of chili, served with pap.",
+        "price": 99,
+        "image": { "fields": { "file": { "url": "/imgs/Mango BBQ Chicken.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "43" },
+      "fields": {
+        "title": "Street Smoke Brisket Burger",
+        "description": "Pulled brisket on a brioche bun with slaw and pickles.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Street Smoke Brisket Burger.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "44" },
+      "fields": {
+        "title": "Karoo Lamb Ribs",
+        "description": "Sticky-sweet lamb ribs with a smoky glaze.",
+        "price": 185,
+        "image": { "fields": { "file": { "url": "/imgs/Karoo Lamb Ribs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "45" },
+      "fields": {
+        "title": "Braaied Mushrooms",
+        "description": "Giant mushrooms marinated in garlic butter.",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "/imgs/Braaied Mushrooms.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "46" },
+      "fields": {
+        "title": "Chipotle Beef Skewers",
+        "description": "Bold and smoky with a hint of heat.",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "/imgs/Chipotle Beef Skewers.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "47" },
+      "fields": {
+        "title": "Bacon-Wrapped Boerie Bites",
+        "description": "Mini boerewors pieces wrapped in crispy bacon, served with a tangy dip.",
+        "price": 90,
+        "image": { "fields": { "file": { "url": "/imgs/Bacon-Wrapped Boerie Bites.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "48" },
+      "fields": {
+        "title": "Harissa Chicken Thighs",
+        "description": "North African chili paste marinade, grilled to perfection.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Harissa Chicken Thighs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "49" },
+      "fields": {
+        "title": "Pineapple Glazed Gammon Steaks",
+        "description": "Sweet-savory pork steaks with charred pineapple.",
+        "price": 145,
+        "image": { "fields": { "file": { "url": "/imgs/Pineapple Glazed Gammon Steaks.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "50" },
+      "fields": {
+        "title": "Full Braai Feast",
+        "description": "A bit of everything grilled – serves four.",
+        "price": 480,
+        "image": { "fields": { "file": { "url": "/imgs/Full Braai Feast.webp" } } }
+      }
+    }
+  ]
+}

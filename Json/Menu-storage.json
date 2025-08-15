@@ -1,0 +1,183 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Jozi Jerk Chicken",
+        "description": "A spicy, tangy chicken dish with a Caribbean twist, served with rice and peas.",
+        "price": 115,
+        "image": { "fields": { "file": { "url": "/imgs/Jozi Jerk Chicken.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Boerie Bao Buns",
+        "description": "Soft steamed buns stuffed with spiced boerewors slices, tangy chakalaka, and a hint of soy glaze.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Boerie Bao Buns.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Soweto Souvlaki",
+        "description": "Greek-style grilled chicken skewers marinated with rooibos and lemon, served with vetkoek pita.",
+        "price": 105,
+        "image": { "fields": { "file": { "url": "/imgs/Soweto Souvlaki.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Bunny Burger",
+        "description": "Think Durban bunny chow, but burger-style: a curried beef patty topped with fresh coriander and mango atchar.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Bunny Burger.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Ndebele Nachos",
+        "description": "Mexican tortilla chips loaded with cheesy chakalaka, jalapeños, and creamy guacamole.",
+        "price": 90,
+        "image": { "fields": { "file": { "url": "/imgs/Ndebele Nachos.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Cape Malay Curry Pizza",
+        "description": "Thin crust, topped with spiced chicken curry, fresh coriander, and sweet apricot chutney.",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "/imgs/Cape Malay Curry Pizza.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Pap & Kimchi Bowl",
+        "description": "Creamy pap topped with spicy Korean kimchi, crispy pork belly, and sesame seeds.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Pap & Kimchi Bowl.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Bobotie Empanadas",
+        "description": "Hand pies stuffed with Cape Malay bobotie mince, served with a chutney dip.",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "/imgs/Bobotie Empanadas.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Masala Ramen",
+        "description": "Japanese noodles in a Durban masala-infused broth, with soft egg and grilled mutton strips.",
+        "price": 125,
+        "image": { "fields": { "file": { "url": "/imgs/Masala Ramen.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Rooibos Ribs",
+        "description": "Tender pork ribs slow-braised in rooibos and honey glaze, finished on the braai.",
+        "price": 160,
+        "image": { "fields": { "file": { "url": "/imgs/Rooibos Ribs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Gatsby Wrap",
+        "description": "A Cape Town gatsby reimagined as a portable wrap, stuffed with chips, steak, and spicy mayo.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Gatsby Wrap.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Moroccan Mielie Salad",
+        "description": "Charred corn tossed with cumin, coriander, and a creamy yogurt dressing.",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "/imgs/Moroccan Mielie Salad.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Madiba Mac & Cheese",
+        "description": "American-style mac and cheese with biltong bits and a hint of smoked paprika.",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "/imgs/Madiba Mac & Cheese.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Pretoria Pad Thai",
+        "description": "Thai stir-fried noodles tossed with peanuts, bean sprouts, and sosatie-spiced chicken.",
+        "price": 115,
+        "image": { "fields": { "file": { "url": "/imgs/Pretoria Pad Thai.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Zulu Zinger Wings",
+        "description": "Crispy wings coated in a tangy peri-barbeque sauce, with a touch of wild honey.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Zulu Zinger Wings.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Bunny Bao Sliders",
+        "description": "<p>Mini bao buns filled with curry lamb, pickled carrots, and coriander cream.</p>",
+        "price": 105,
+        "image": { "fields": { "file": { "url": "/imgs/Bunny Bao Sliders.webp" } } }
+        }
+    },
+    {      "sys": { "id": "17" },
+      "fields": {
+        "title": "Chakalaka Chimichangas",
+        "description": "Crispy fried wraps stuffed with spicy chakalaka and pulled chicken, served with sour cream.",
+        "price": 90,
+        "image": { "fields": { "file": { "url": "/imgs/Chakalaka Chimichangas.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "Durban Fish Tacos",
+        "description": "Soft tortillas with battered hake, mango salsa, and a peri-lime drizzle.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Mexico City Street Tacos.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "Vetkoek Philly Cheesesteak",
+        "description": "<p>A Philly classic meets SA — vetkoek stuffed with tender beef strips, onions, and melted cheese.</p>",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Vetkoek Philly Cheesesteak.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "Malva Pudding Milkshake",
+        "description": "<p>A thick vanilla milkshake blended with chunks of malva pudding and caramel sauce.</p>",
+        "price": 75,
+        "image": { "fields": { "file": { "url": "/imgs/Malva Pudding Milkshake.jpg" } } }
+      }
+    }
+  ]
+}

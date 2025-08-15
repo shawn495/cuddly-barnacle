@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "sys": { "id": "131" },
+      "fields": {
+        "title": "Mzansi Street Feast",
+        "description": "A big ol’ platter of boerewors bites, peri-peri chicken wings, mini vetkoek sliders, and spiced chakalaka dip.",
+        "price": 320,
+        "image": { "fields": { "file": { "url": "/imgs/The Mega Mzansi.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "132" },
+      "fields": {
+        "title": "Global Graze Board",
+        "description": "From Italy to India: focaccia slices, butter chicken skewers, halloumi fries, and Thai sweet chili prawns.",
+        "price": 350,
+        "image": { "fields": { "file": { "url": "/imgs/seafood platter.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "133" },
+      "fields": {
+        "title": "Carnivore’s Kingdom",
+        "description": "Flame-grilled ribs, peri-peri thighs, lamb sosaties, and smoky corn on the cob.",
+        "price": 399,
+        "image": { "fields": { "file": { "url": "/imgs/platter 1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "134" },
+      "fields": {
+        "title": "Seafood Safari",
+        "description": "Calamari rings, tempura prawns, mussel bake, and creamy garlic dip with fresh lemon.",
+        "price": 370,
+        "image": { "fields": { "file": { "url": "/imgs/seafood platter 2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "135" },
+      "fields": {
+        "title": "Veggie Victory Platter",
+        "description": "Grilled veggie kebabs, falafel balls, spinach-and-feta phyllo rolls, and spicy hummus.",
+        "price": 280,
+        "image": { "fields": { "file": { "url": "/imgs/veggie platter 1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "136" },
+      "fields": {
+        "title": "Sweet & Savoury Street Mix",
+        "description": "Sticky wings, mini vetkoeks, churros, and cinnamon-sugar popcorn.",
+        "price": 300,
+        "image": { "fields": { "file": { "url": "/imgs/Chakalaka Chicken Wings.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "137" },
+      "fields": {
+        "title": "Peri-Peri Party Board",
+        "description": "Peri chicken skewers, peri potato wedges, peri prawns, and peri dipping sauce (peri-peri overload!).",
+        "price": 310,
+        "image": { "fields": { "file": { "url": "/imgs/Peri-Peri Chicken Quarters.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "138" },
+      "fields": {
+        "title": "Braai Buddy Board",
+        "description": "A braai-style mix of boerewors, lamb chops, mielies, and tangy tomato relish.",
+        "price": 350,
+        "image": { "fields": { "file": { "url": "/imgs/The Mega Mzansi.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "139" },
+      "fields": {
+        "title": "Little Flava Feast",
+        "description": "Kid-friendly mix: chicken strips, mini burgers, sweet potato fries, and rainbow fruit skewers.",
+        "price": 220,
+        "image": { "fields": { "file": { "url": "/imgs/Tokyo Teriyaki Skewers.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "140" },
+      "fields": {
+        "title": "The Great Greed Platter",
+        "description": "Designed for one very hungry person: full rack ribs, loaded fries, two cheese-stuffed vetkoeks.",
+        "price": 390,
+        "image": { "fields": { "file": { "url": "/imgs/Vetkoek Philly Cheesesteak.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "141" },
+      "fields": {
+        "title": "StreetGreens Mezze",
+        "description": "Pita, tzatziki, hummus, marinated olives, dolmades, and grilled halloumi.",
+        "price": 260,
+        "image": { "fields": { "file": { "url": "/imgs/Grilled Veg Halloumi Stack.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "142" },
+      "fields": {
+        "title": "Wings & Things",
+        "description": "20 sticky wings, potato skins, onion rings, and creamy ranch dip.",
+        "price": 330,
+        "image": { "fields": { "file": { "url": "/imgs/Zulu Zinger Wings.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "143" },
+      "fields": {
+        "title": "Land & Sea Combo",
+        "description": "Half rack BBQ ribs, peri prawns, garlic bread, and crunchy slaw.",
+        "price": 360,
+        "image": { "fields": { "file": { "url": "/imgs/platter 1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "144" },
+      "fields": {
+        "title": "Around the Fire Platter",
+        "description": "Pap balls, chicken sosaties, lamb riblets, and spicy spinach.",
+        "price": 340,
+        "image": { "fields": { "file": { "url": "/imgs/Mzansi Street Feast.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "145" },
+      "fields": {
+        "title": "Street Taco Spread",
+        "description": "12 soft tacos (choice of chicken, beef, or veggie), salsa, guac, and sour cream.",
+        "price": 380,
+        "image": { "fields": { "file": { "url": "/imgs/Mexico City Street Tacos.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "146" },
+      "fields": {
+        "title": "Mediterranean Market Board",
+        "description": "Stuffed vine leaves, lamb koftas, feta & olive salad, pita, and hummus.",
+        "price": 300,
+        "image": { "fields": { "file": { "url": "/imgs/Mediterranean Market Board.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "147" },
+      "fields": {
+        "title": "Bunny Bite Board",
+        "description": "Mini bunny chows with curry fillings (chicken, lamb, and bean).",
+        "price": 320,
+        "image": { "fields": { "file": { "url": "/imgs/Bunny Burger.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "148" },
+      "fields": {
+        "title": "Beer Buddy Platter",
+        "description": "Jalapeño poppers, crumbed mushrooms, mini sausages, and cheesy fries.",
+        "price": 290,
+        "image": { "fields": { "file": { "url": "/imgs/Beer Buddy Platter.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "149" },
+      "fields": {
+        "title": "Cheese & Charcuterie Street Style",
+        "description": "Local cheeses, cured meats, fruit preserves, and artisanal crackers.",
+        "price": 340,
+        "image": { "fields": { "file": { "url": "/imgs/Cheese & Charcuterie Street Style.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "150" },
+      "fields": {
+        "title": "The Mega Mzansi",
+        "description": "A giant tray of peri-peri chicken, boerewors, wings, ribs, chips, and slaw – serves 4–5.",
+        "price": 599,
+        "image": { "fields": { "file": { "url": "/imgs/Mzansi Street Feast.jpg" } } }
+      }
+    }
+  ]
+}

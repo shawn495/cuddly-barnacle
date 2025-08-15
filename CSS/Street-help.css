@@ -1,0 +1,268 @@
+:root {
+  --primary-color: #cd311eFF;
+  --accent-color: #ffd23fFF;
+  --text-color: #333;
+  --alt-text-color: #e2e2e2ff;
+  --primary-font-family: inter, sans-serif;
+  --secondary-font-family: oswald, sans-serif;
+  --spacing-unit: 1rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+}
+
+/* Navigation styles - keeping consistent with other pages */
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-unit);
+  background: transparent;
+  margin: 0 var(--spacing-lg);
+  z-index: 2;
+}
+
+#linking {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-unit);
+}
+
+#links {
+  display: flex;
+  list-style: none;
+  gap: calc(var(--spacing-unit) * 2);
+}
+
+#buttons {
+  display: flex;
+  gap: var(--spacing-unit);
+}
+
+#contact {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    background-color: #;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 5.5rem;
+    width: 8.5rem; 
+    height: 3.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;   
+    font-style: normal;
+
+}
+
+#Sign-up {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 5.5rem;
+    min-height: ;
+    width: 8rem; 
+    height: 3.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;   
+    font-style: normal;
+}
+
+
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+}
+#footer-heading {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+#footer-socials{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  
+}
+
+#footer-links {
+  display: flex;  /* Fix typo */
+  gap: var(--spacing-lg);
+  width: 100%;
+  justify-content: space-around;
+  padding: var(--spacing-lg) 0;
+}
+
+#footer-socials ul {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: 0;
+}
+
+#Menu{
+  list-style: none;
+}
+
+#explore{
+  list-style: none;
+}
+
+#About-us{
+  list-style: none;
+}
+
+#Contact-us{
+  list-style: none;
+}
+
+#footer-text{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: -2rem;
+}
+
+/* Add hover states */
+#links a:hover {
+    color: var(--primary-color);
+    transition: color 0.2s ease;
+}
+
+/* Add button transitions */
+#contact, #Sign-up {
+    transition: transform 0.2s ease;
+}
+
+#contact:hover, #Sign-up:hover {
+    transform: translateY(-2px);
+}
+
+/* FAQ Section */
+#street-help-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 var(--spacing-lg);
+}
+
+#street-help-questions h4 {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+#street-help-questions h5 {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+  margin: var(--spacing-xl) 0 var(--spacing-lg);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: var(--spacing-sm);
+}
+
+#street-help-questions p {
+  margin: var(--spacing-md) 0;
+  line-height: 1.6;
+}
+
+#street-help-questions p:nth-child(odd) {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+#street-help-questions p:nth-child(even) {
+  color: #666;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Contact Section */
+#contact-section {
+  background-color: #f8f8f8;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+#contact-info {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact-info h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+}
+
+#contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-lg) 0;
+}
+
+#contact-info ul li {
+  margin: var(--spacing-md) 0;
+}
+
+#contact-info a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#contact-info a:hover {
+  color: var(--accent-color);
+}
+
+/* Footer - keeping consistent with other pages */
+#footer {
+  background: #1a1a1a;
+  color: var(--alt-text-color);
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #street-help-section {
+    padding: 0 var(--spacing-md);
+  }
+
+  #street-help-questions h4 {
+    font-size: 2rem;
+  }
+
+  #street-help-questions h5 {
+    font-size: 1.5rem;
+  }
+
+  #contact-section {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  #street-help-questions h4 {
+    font-size: 1.75rem;
+  }
+
+  #street-help-questions h5 {
+    font-size: 1.25rem;
+  }
+
+  #contact-info h3 {
+    font-size: 1.5rem;
+  }
+}

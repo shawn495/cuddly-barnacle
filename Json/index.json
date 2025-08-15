@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "sys": { "id": "81" },
+      "fields": {
+        "title": "Mzansi Power Bowl",
+        "description": "Quinoa, grilled chicken, chakalaka drizzle, and roasted butternut.",
+        "price": 105,
+        "image": { "fields": { "file": { "url": "/imgs/Mzansi Power Bowl.jpg" } } }
+      }
+    },
+        {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "Grill Master’s Beef Burger",
+        "description": "200g patty, melted cheddar, caramelized onions, and tangy chutney.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Grill Master’s Beef Burger.jpg" } } }
+      }
+    }, 
+    {
+      "sys": { "id": "173" },
+      "fields": {
+        "title": "Cheeky Chicken Strips",
+        "description": "Crispy chicken tenders with a side of fries.",
+        "price": 45,
+        "image": { "fields": { "file": { "url": "/imgs/Cheeky Chicken Strips.jpg" } } }
+      }
+    },
+        {
+      "sys": { "id": "153" },
+      "fields": {
+        "title": "Milktart Slice",
+        "description": "Buttery crust with a creamy cinnamon-spiced filling.",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "/imgs/Milktart Slice.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "154" },
+      "fields": {
+        "title": "Amarula Dream Cheesecake",
+        "description": "Creamy cheesecake infused with Amarula liqueur.",
+        "price": 65,
+        "image": { "fields": { "file": { "url": "/imgs/Amarula Dream Cheesecake.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "112" },
+      "fields": {
+        "title": "Bangkok Street Pad Thai",
+        "description": "Wok-fried rice noodles with prawns, egg, bean sprouts, and peanuts in a tangy tamarind sauce.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Bangkok Street Pad Thai.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "113" },
+      "fields": {
+        "title": "Rio BBQ Picanha",
+        "description": "Brazilian-style grilled rump with chimichurri and roasted garlic potatoes.",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "/imgs/Rio BBQ Picanha.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "148" },
+      "fields": {
+        "title": "Beer Buddy Platter",
+        "description": "Jalapeño poppers, crumbed mushrooms, mini sausages, and cheesy fries.",
+        "price": 290,
+        "image": { "fields": { "file": { "url": "/imgs/Beer Buddy Platter.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "149" },
+      "fields": {
+        "title": "Cheese & Charcuterie Street Style",
+        "description": "Local cheeses, cured meats, fruit preserves, and artisanal crackers.",
+        "price": 340,
+        "image": { "fields": { "file": { "url": "/imgs/Cheese & Charcuterie Street Style.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "150" },
+      "fields": {
+        "title": "The Mega Mzansi",
+        "description": "A giant tray of peri-peri chicken, boerewors, wings, ribs, chips, and slaw, serves 4–5.",
+        "price": 599,
+        "image": { "fields": { "file": { "url": "/imgs/The Mega Mzansi.jpg" } } }
+      }
+    }
+  ]
+}

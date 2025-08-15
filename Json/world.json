@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "sys": { "id": "111" },
+      "fields": {
+        "title": "Tokyo Teriyaki Skewers",
+        "description": "Tender chicken skewers glazed in sweet teriyaki sauce, sprinkled with toasted sesame seeds.",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "/imgs/Tokyo Teriyaki Skewers.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "112" },
+      "fields": {
+        "title": "Bangkok Street Pad Thai",
+        "description": "Wok-fried rice noodles with prawns, egg, bean sprouts, and peanuts in a tangy tamarind sauce.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Bangkok Street Pad Thai.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "113" },
+      "fields": {
+        "title": "Rio BBQ Picanha",
+        "description": "Brazilian-style grilled rump with chimichurri and roasted garlic potatoes.",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "/imgs/Rio BBQ Picanha.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "114" },
+      "fields": {
+        "title": "Napoli Neapolitan Pizza Slice",
+        "description": "Hand-tossed dough, San Marzano tomatoes, fresh mozzarella, and basil.",
+        "price": 65,
+        "image": { "fields": { "file": { "url": "/imgs/Napoli Neapolitan Pizza Slice.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "115" },
+      "fields": {
+        "title": "Mumbai Masala Chicken",
+        "description": "Spiced grilled chicken in a rich tomato-onion gravy, served with roti.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Mumbai Masala Chicken.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "116" },
+      "fields": {
+        "title": "New York Hot Dog",
+        "description": "Classic beef sausage, mustard, ketchup, onions, and pickles in a soft bun.",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "/imgs/New York Hot Dog.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "117" },
+      "fields": {
+        "title": "Cairo Kofta Wrap",
+        "description": "Spiced minced beef koftas wrapped with tahini, tomato, and parsley.",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "/imgs/Cairo Kofta Wrap.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "118" },
+      "fields": {
+        "title": "Paris Croque-Monsieur",
+        "description": "Buttery toasted bread with ham, melted cheese, and béchamel sauce.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Paris Croque-Monsieur.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "119" },
+      "fields": {
+        "title": "Seoul Bulgogi Beef Bowl",
+        "description": "Thinly sliced beef marinated in soy, garlic, and sesame, served over rice.",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "/imgs/Seoul Bulgogi Beef Bowl.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "120" },
+      "fields": {
+        "title": "Mexico City Street Tacos",
+        "description": "Corn tortillas filled with slow-cooked beef, onion, and fresh coriander.",
+        "price": 90,
+        "image": { "fields": { "file": { "url": "/imgs/Mexico City Street Tacos.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "121" },
+      "fields": {
+        "title": "Cape Malay Bunny Chow",
+        "description": "Hollowed bread loaf stuffed with curry — South Africa meets India.",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "/imgs/Cape Malay Curry Bowl.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "122" },
+      "fields": {
+        "title": "Caribbean Jerk Chicken",
+        "description": "Smoky and spicy jerk-marinated chicken with sweet plantains.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Jozi Jerk Chicken.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "123" },
+      "fields": {
+        "title": "Sydney Fish & Chips",
+        "description": "Beer-battered hake fillet with crispy fries and tartar sauce.",
+        "price": 110,
+        "image": { "fields": { "file": { "url": "/imgs/Sydney Fish & Chips.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "124" },
+      "fields": {
+        "title": "Istanbul Doner Kebab",
+        "description": "Slow-roasted lamb, shredded and wrapped with salad and yoghurt sauce.",
+        "price": 95,
+        "image": { "fields": { "file": { "url": "/imgs/Istanbul Doner Kebab.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "125" },
+      "fields": {
+        "title": "Texas BBQ Ribs",
+        "description": "Fall-off-the-bone pork ribs smothered in smoky barbecue sauce.",
+        "price": 160,
+        "image": { "fields": { "file": { "url": "/imgs/Texas BBQ Ribs.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "126" },
+      "fields": {
+        "title": "Shanghai Dumpling Basket",
+        "description": "Steamed pork and cabbage dumplings with soy dipping sauce.",
+        "price": 80,
+        "image": { "fields": { "file": { "url": "/imgs/Shanghai Dumpling Basket.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "127" },
+      "fields": {
+        "title": "Lisbon Piri-Piri Prawns",
+        "description": "Grilled prawns in fiery Portuguese chilli sauce.",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "/imgs/Lisbon Piri-Piri Prawns.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "128" },
+      "fields": {
+        "title": "Berlin Currywurst",
+        "description": "Sliced sausage topped with curry ketchup, served with fries.",
+        "price": 85,
+        "image": { "fields": { "file": { "url": "/imgs/Berlin Currywurst.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "129" },
+      "fields": {
+        "title": "Athens Souvlaki Plate",
+        "description": "Skewered lamb with pita bread, tzatziki, and fresh salad.",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "/imgs/Athens Souvlaki Plate.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "130" },
+      "fields": {
+        "title": "Havana Mojo Pork Sandwich",
+        "description": "Slow-cooked pork with zesty citrus-garlic sauce in a toasted roll.",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "/imgs/Havana Mojo Pork Sandwich.jpg" } } }
+      }
+    }
+  ]
+}

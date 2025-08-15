@@ -1,0 +1,37 @@
+#background {
+    background-image: url('/fast-food-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+#error-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#error-container p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.error-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 8rem; 
+    height: 3.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;   
+    font-style: normal;
+}
