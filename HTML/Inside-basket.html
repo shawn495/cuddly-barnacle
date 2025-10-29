@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basket</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/Menu-page.css">
     <link rel="stylesheet" href="../CSS/sidebar-styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
+    <div class="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">&times;</button>
+        <div class="menu-items">
+            <a href="Menu-page.html">Menu</a>
+            <a href="Find-a-street.html">Find a Street</a>
+            <a href="Our-brand-story.html">Our Story</a>
+            <a href="Street-help.html">Help</a>
+            <a href="Contact-us.html">Contact</a>
+            <a href="Join-members.html">Join Members</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <button class="menu-btn" onclick="openSidebar()">&#9776;</button>
+            <h1>Your Basket</h1>
+        </div>
+
+        <div class="basket-container">
+            <!-- Basket items will be dynamically added here -->
+        </div>
+    </div>
     
     <script src="../Javascript/index.js"></script>
 </body>
