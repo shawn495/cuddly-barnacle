@@ -7,10 +7,7 @@
     width: 100%;
     height: 4rem;
     background-color: var(--background);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    position: relative;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -61,7 +58,7 @@
     font-size: 1rem;
     font-weight: 500;
     color: var(--primary-text-color);
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
     transition: all 0.25s ease;
     position: relative;
 }
@@ -176,7 +173,82 @@
     }
 }
 
-/* Add margin-top to main content to account for fixed nav */
-main, section:first-of-type {
-    margin-top: 5rem;
+/* Sub Navigation */
+#sub-nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-text-color);
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    margin: var(--spacing-lg) auto;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+#sub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#sub-links li {
+    margin: 0;
+}
+
+#sub-links a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    text-align: center;
+}
+
+#sub-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-colors1);
+    transition: width 0.3s ease;
+}
+
+#sub-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-alt-text-color);
+}
+
+#sub-links a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #sub-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: var(--spacing-md) auto;
+    }
+
+    #sub-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    #sub-links a {
+        text-align: center;
+        width: 90%;
+    }
 }

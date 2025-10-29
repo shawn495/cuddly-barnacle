@@ -29,133 +29,10 @@ body {
   background-image: url(/imgs/paper-texture.jpg);
 }
 
-#nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: rgba(248, 225, 180, 0.8);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  font-family: 'Poppins', sans-serif;
-}
-
-/* LOGO SECTION */
-#logo {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-#logo img {
-  width: 2.5rem;
-  height: auto;
-}
-
-#logo h3 {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #000000;
-}
+/* Navigation styles moved to shared-nav.css */
 
 
-#links-container {
-  display: flex;
-  justify-content: center;
-  flex: 1; /* takes up the middle space */
-}
-
-/* LINKS ISLAND */
-#links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin: 0;
-  padding: 0.5rem 2rem;
-  list-style: none;
-  border-radius: 12px;
-  background-color: var(--primary-text-color);
-  color: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-#links li {
-  display: flex;
-  align-items: center;
-}
-
-/* LINKS WITH HOVER UNDERLINE */
-#links a {
-  position: relative;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
-  color: white;
-  padding: 0.5rem 0.75rem;
-  transition: color 0.25s ease;
-}
-
-#links a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0%;
-  height: 2px;
-  background-color: #ff6f61; /* accent underline color */
-  transition: width 0.3s ease;
-}
-
-#links a:hover {
-  color: #ff6f61;
-}
-
-#links a:hover::after {
-  width: 100%;
-}
-
-/* BUTTONS */
-#buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-#contact, #Sign-up {
-  padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 500;
-  transition: all 0.25s ease;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-/* CONTACT BUTTON */
-#contact {
-  background-color: var(--primary-colors1); 
-  color: white;
-}
-
-#contact:hover {
-  background-color: #ff4a3a;
-  transform: translateY(-2px);
-}
-
-/* SIGN-UP BUTTON */
-#Sign-up {
-  background-color: var(--primary-colors);
-  color: white;
-}
-
-#Sign-up:hover {
-  background-color: #f4a300b3;
-  transform: translateY(-2px);
-}
+/* Navigation styles moved to shared-nav.css */
 
 /* CENTER THE LINKS ISLAND */
 #linking {
@@ -188,10 +65,10 @@ body {
 #sub-nav {
     display: flex;
     justify-content: center;
-    background-color: var(--primary-text-color); /* use your existing root color */
+    background-color: var(--primary-text-color);
     padding: 0.75rem 1rem;
     border-radius: 12px;
-    margin: 2rem auto;
+    margin: var(--spacing-lg) auto;
     width: 90%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
