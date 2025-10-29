@@ -1,3 +1,7 @@
+:root{ /* design language base (idempotent) */ --primary-color: var(--primary-colors); --accent-color: #ff6f61; }
+*, *::before, *::after { box-sizing: border-box; }
+body { font-family: var(--primary-font-family); background-image: url("../imgs/paper-texture.jpg"); background-size: cover; background-repeat: no-repeat; }
+
 :root {
   --primary-color: #cd311eFF;
   --accent-color: #ffd23fFF;
@@ -43,7 +47,7 @@
 #contact {
     padding: 10px 20px;
     background-color: var(--accent-color);
-    background-color: #;
+    
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -67,7 +71,7 @@
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     min-width: 5.5rem;
-    min-height: ;
+    
     width: 8rem; 
     height: 3.25rem;
     font-size: 1.125rem;

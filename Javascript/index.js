@@ -85,11 +85,81 @@ document.addEventListener("DOMContentLoaded", () => {
     const links = document.getElementById("links-container");
     const buttons = document.getElementById("buttons");
 
+    // Build a mobile sidebar (created once)
+    function createMobileSidebar() {
+        if (document.getElementById('mobile-nav-overlay')) return; // already created
+
+        const overlay = document.createElement('div');
+        overlay.id = 'mobile-nav-overlay';
+        overlay.tabIndex = -1;
+
+        const sidebar = document.createElement('aside');
+        sidebar.id = 'mobile-sidebar';
+        sidebar.setAttribute('aria-hidden', 'true');
+
+        const closeBtn = document.createElement('button');
+        closeBtn.id = 'mobile-nav-close';
+        closeBtn.className = 'mobile-close';
+        closeBtn.innerHTML = '✕';
+        closeBtn.setAttribute('aria-label', 'Close menu');
+
+        // Clone the logo and links/buttons into the sidebar (shallow clone)
+        const logo = document.getElementById('logo');
+        if (logo) sidebar.appendChild(logo.cloneNode(true));
+
+        const clonedLinks = document.getElementById('links')?.cloneNode(true);
+        if (clonedLinks) clonedLinks.id = 'mobile-links';
+        const clonedButtons = document.getElementById('buttons')?.cloneNode(true);
+        if (clonedButtons) clonedButtons.id = 'mobile-buttons';
+
+        sidebar.appendChild(closeBtn);
+        if (clonedLinks) sidebar.appendChild(clonedLinks);
+        if (clonedButtons) sidebar.appendChild(clonedButtons);
+
+        document.body.appendChild(overlay);
+        document.body.appendChild(sidebar);
+
+        // Close handlers
+        function closeSidebar() {
+            overlay.classList.remove('open');
+            sidebar.classList.remove('open');
+            sidebar.setAttribute('aria-hidden', 'true');
+            // return focus to burger
+            burger?.focus();
+        }
+
+        overlay.addEventListener('click', closeSidebar);
+        closeBtn.addEventListener('click', closeSidebar);
+
+        // keyboard escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeSidebar();
+        });
+    }
+
+    function openSidebar() {
+        const overlay = document.getElementById('mobile-nav-overlay');
+        const sidebar = document.getElementById('mobile-sidebar');
+        if (!overlay || !sidebar) return;
+        overlay.classList.add('open');
+        sidebar.classList.add('open');
+        sidebar.setAttribute('aria-hidden', 'false');
+        // move focus to first link
+        const firstFocusable = sidebar.querySelector('a, button');
+        firstFocusable?.focus();
+    }
+
     if (burger) {
-        burger.addEventListener("click", () => {
-            // toggle visibility
-            links.classList.toggle("show-menu");
-            buttons.classList.toggle("show-menu");
+        burger.addEventListener('click', () => {
+            // If small screen, open the sliding sidebar; otherwise keep previous behavior
+            if (window.innerWidth <= 900) {
+                createMobileSidebar();
+                openSidebar();
+            } else {
+                // fallback: toggle inline menu
+                links.classList.toggle('show-menu');
+                buttons.classList.toggle('show-menu');
+            }
         });
     }
 });

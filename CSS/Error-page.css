@@ -1,3 +1,7 @@
+#root{ /* design language base (idempotent) */ --primary-color: var(--primary-colors); --accent-color: #ff6f61; }
+*, *::before, *::after { box-sizing: border-box; }
+body { font-family: var(--primary-font-family); background-image: url("../imgs/paper-texture.jpg"); background-size: cover; background-repeat: no-repeat; }
+
 #background {
     background-image: url('/fast-food-background.jpg');
     background-size: cover;
