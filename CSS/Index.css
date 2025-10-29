@@ -193,30 +193,29 @@ body {
 #hero {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 2rem;
   overflow: hidden;
-  min-height: 60vh;
+  min-height: 85vh;
+  gap: 2rem;
 }
 
 #hero-text {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 50%;
   justify-content: center;
   align-items: flex-start;
-  max-width: 55rem;
+  gap: 1rem;
 }
 
 #hero-text h1 {
-  margin: 0 0 1rem 0;
-  font-size: clamp(1.8rem, 4vw + 1rem, 3.8rem);
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
   text-transform: capitalize;
   color: var(--primary-text-color);
-  max-width: 50rem;
+  margin: 0;
 }
 
 #hero-para {
