@@ -233,28 +233,38 @@ body {
 }
 
 /* RESPONSIVE HERO SECTION */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   #hero {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     padding: 3rem 2rem;
   }
 
   #hero-text, #hero-img {
-    max-width: 100%;
     width: 100%;
+    max-width: 100%;
+    text-align: center;
   }
 
   #hero-img img {
     max-height: 40vh;
+    opacity: 0.8;
   }
+}
 
+@media (max-width: 768px) {
   #hero-text h1 {
     font-size: 2.25rem;
   }
 
   #hero-text p {
     font-size: 1rem;
+  }
+
+  #hero-started {
+    width: 100%;
+    padding: 0.7rem 0;
   }
 }
 
@@ -264,12 +274,7 @@ body {
   }
 
   #hero-text p {
-    font-size: 0.9rem;
-  }
-
-  #hero-started {
-    width: 100%;
-    padding: 0.7rem 0;
+    font-size: 0.85rem;
   }
 
   #hero-img img {
